@@ -2,6 +2,6 @@ clear
 close all
 clc
 
-x = -4*pi:0.1:4*pi;
+x = 0:1/1000:10*pi;
 y = sin(x);
 plot(x,y)
